@@ -1,4 +1,4 @@
-name: "Static code analysis workflow (CodeQL)"
+﻿name: "Static code analysis workflow (CodeQL)"
 
 on:
   push:
@@ -24,7 +24,7 @@ permissions:
 
 jobs:
   CodeQL-Build:
-    if: github.repository == 'anuraghazra/github-readme-stats'
+    if: github.repository == 'Priyan2520/github-readme-stats'
 
     # CodeQL runs on ubuntu-latest, windows-latest, and macos-latest
     runs-on: ubuntu-latest

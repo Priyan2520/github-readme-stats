@@ -1,10 +1,10 @@
-/**
+﻿/**
  * @file Contains helper functions used in the scripts.
  */
 
 import { getInput } from "@actions/core";
 
-const OWNER = "anuraghazra";
+const OWNER = "Priyan2520";
 const REPO = "github-readme-stats";
 
 /**

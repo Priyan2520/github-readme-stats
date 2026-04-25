@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it } from "@jest/globals";
+﻿import { afterEach, describe, expect, it } from "@jest/globals";
 import "@testing-library/jest-dom";
 import axios from "axios";
 import MockAdapter from "axios-mock-adapter";
@@ -97,14 +97,14 @@ const wakaTimeData = {
     total_seconds: 80473.135716,
     total_seconds_including_other_language: 81643.570077,
     user_id: "random hash",
-    username: "anuraghazra",
+    username: "Priyan2520",
     writes_only: false,
   },
 };
 
 describe("WakaTime fetcher", () => {
   it("should fetch correct WakaTime data", async () => {
-    const username = "anuraghazra";
+    const username = "Priyan2520";
     mock
       .onGet(
         `https://wakatime.com/api/v1/users/${username}/stats?is_including_today=true`,

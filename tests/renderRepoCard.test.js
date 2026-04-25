@@ -1,4 +1,4 @@
-import { describe, expect, it } from "@jest/globals";
+﻿import { describe, expect, it } from "@jest/globals";
 import { queryByTestId } from "@testing-library/dom";
 import "@testing-library/jest-dom";
 import { cssToObject } from "@uppercod/css-to-object";
@@ -7,7 +7,7 @@ import { themes } from "../themes/index.js";
 
 const data_repo = {
   repository: {
-    nameWithOwner: "anuraghazra/convoychat",
+    nameWithOwner: "Priyan2520/convoychat",
     name: "convoychat",
     description: "Help us take over the world! React + TS + GraphQL Chat App",
     primaryLanguage: {
@@ -27,7 +27,7 @@ describe("Test renderRepoCard", () => {
     const [header] = document.getElementsByClassName("header");
 
     expect(header).toHaveTextContent("convoychat");
-    expect(header).not.toHaveTextContent("anuraghazra");
+    expect(header).not.toHaveTextContent("Priyan2520");
     expect(document.getElementsByClassName("description")[0]).toHaveTextContent(
       "Help us take over the world! React + TS + GraphQL Chat App",
     );
@@ -47,7 +47,7 @@ describe("Test renderRepoCard", () => {
       show_owner: true,
     });
     expect(document.getElementsByClassName("header")[0]).toHaveTextContent(
-      "anuraghazra/convoychat",
+      "Priyan2520/convoychat",
     );
   });
 

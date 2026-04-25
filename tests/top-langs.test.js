@@ -1,4 +1,4 @@
-// @ts-check
+﻿// @ts-check
 
 import { afterEach, describe, expect, it, jest } from "@jest/globals";
 import "@testing-library/jest-dom";
@@ -78,7 +78,7 @@ describe("Test /api/top-langs", () => {
   it("should test the request", async () => {
     const req = {
       query: {
-        username: "anuraghazra",
+        username: "Priyan2520",
       },
     };
     const res = {
@@ -96,7 +96,7 @@ describe("Test /api/top-langs", () => {
   it("should work with the query options", async () => {
     const req = {
       query: {
-        username: "anuraghazra",
+        username: "Priyan2520",
         hide_title: true,
         card_width: 100,
         title_color: "fff",
@@ -129,7 +129,7 @@ describe("Test /api/top-langs", () => {
   it("should render error card on user data fetch error", async () => {
     const req = {
       query: {
-        username: "anuraghazra",
+        username: "Priyan2520",
       },
     };
     const res = {
@@ -153,7 +153,7 @@ describe("Test /api/top-langs", () => {
   it("should render error card on incorrect layout input", async () => {
     const req = {
       query: {
-        username: "anuraghazra",
+        username: "Priyan2520",
         layout: ["pie"],
       },
     };
@@ -201,7 +201,7 @@ describe("Test /api/top-langs", () => {
   it("should render error card if wrong locale provided", async () => {
     const req = {
       query: {
-        username: "anuraghazra",
+        username: "Priyan2520",
         locale: "asdf",
       },
     };
@@ -225,7 +225,7 @@ describe("Test /api/top-langs", () => {
   it("should have proper cache", async () => {
     const req = {
       query: {
-        username: "anuraghazra",
+        username: "Priyan2520",
       },
     };
     const res = {

@@ -1,4 +1,4 @@
-name: Update supported languages
+﻿name: Update supported languages
 on:
   schedule:
     #        ┌───────────── minute (0 - 59)
@@ -28,7 +28,7 @@ permissions:
 
 jobs:
   updateLanguages:
-    if: github.repository == 'anuraghazra/github-readme-stats'
+    if: github.repository == 'Priyan2520/github-readme-stats'
     name: Update supported languages
     runs-on: ubuntu-latest
     strategy:
@@ -61,7 +61,7 @@ jobs:
           title: Update languages JSON
           body:
             "The
-            [update-langs](https://github.com/anuraghazra/github-readme-stats/actions/workflows/update-langs.yaml)
+            [update-langs](https://github.com/Priyan2520/github-readme-stats/actions/workflows/update-langs.yaml)
             action found new/updated languages in the [upstream languages JSON
             file](https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml)."
           labels: "ci, lang-card"

@@ -1,4 +1,4 @@
-import pin from "../../api/pin.js";
+﻿import pin from "../../api/pin.js";
 import axios from "axios";
 import MockAdapter from "axios-mock-adapter";
 import { it, jest } from "@jest/globals";
@@ -6,7 +6,7 @@ import { runAndLogStats } from "./utils.js";
 
 const data_repo = {
   repository: {
-    username: "anuraghazra",
+    username: "Priyan2520",
     name: "convoychat",
     stargazers: {
       totalCount: 38000,
@@ -36,7 +36,7 @@ it("test /api/pin", async () => {
   await runAndLogStats("test /api/pin", async () => {
     const req = {
       query: {
-        username: "anuraghazra",
+        username: "Priyan2520",
         repo: "convoychat",
       },
     };

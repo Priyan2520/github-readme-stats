@@ -1,4 +1,4 @@
-name: Test Deployment
+﻿name: Test Deployment
 on:
   # Temporarily disabled automatic triggers; manual-only for now.
   workflow_dispatch:
@@ -11,7 +11,7 @@ jobs:
   e2eTests:
     # Temporarily disabled; set to the original condition to re-enable.
     # if:
-    #   github.repository == 'anuraghazra/github-readme-stats' &&
+    #   github.repository == 'Priyan2520/github-readme-stats' &&
     #   github.event_name == 'deployment_status' &&
     #   github.event.deployment_status.state == 'success'
     if: false

@@ -1,11 +1,11 @@
-import api from "../../api/index.js";
+﻿import api from "../../api/index.js";
 import axios from "axios";
 import MockAdapter from "axios-mock-adapter";
 import { it, jest } from "@jest/globals";
 import { runAndLogStats } from "./utils.js";
 
 const stats = {
-  name: "Anurag Hazra",
+  name: "Priya Nakate",
   totalStars: 100,
   totalCommits: 200,
   totalIssues: 300,
@@ -56,7 +56,7 @@ const mock = new MockAdapter(axios);
 const faker = (query, data) => {
   const req = {
     query: {
-      username: "anuraghazra",
+      username: "Priyan2520",
       ...query,
     },
   };
